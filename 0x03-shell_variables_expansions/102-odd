@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -A 3 root /etc/passwd
+cat -n | grep [135759][[:space:]] | tr -s ' ' | cut -f2
